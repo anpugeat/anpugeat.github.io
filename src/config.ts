@@ -14,7 +14,7 @@ export const siteConfig = {
     
     "Upon completing my degrees, I had recalled a thorough enjoyment out of completing a variety of data analysis, coding and machine learning modules. "+
     "I found myself self-learning a number of Data Science and ML modules from both UCL's MSc Data Science and ML course as well as accredited "+
-    "teaching programs like Coursera. I've confirmed now that, for my career, this is what I want to do. I am excited for the chance at a role in "+
+    "teaching programs like Coursera. I've confirmed now that, for my career, Data Science is what I want to do. I am excited for the chance at a role in "+
     "this field and to dedicate myself fully towards it. "+
     "This website offers a bit more insight into who I am - I hope you will find that I am a good fit for your company!"
     
