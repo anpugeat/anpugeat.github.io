@@ -6,7 +6,6 @@ export const siteConfig = {
   social: {
     email: "alexpugeat@gmail.com",
     linkedin: "https://linkedin.com/in/anpugeat",
-    twitter: "https://x.com/",
     github: "https://github.com/anpugeat",
   },
   aboutMe:
@@ -96,14 +95,14 @@ export const siteConfig = {
       degree: "Bachelor of Science in Physics",
       dateRange: "2020-2023",
       description: 
-        "Graduated Magna Cum Laude with 3.8 GPA",
+        "",
     },
     {
       school: "Hong Kong University of Science and Technology",
       degree: "Bachelor of Engineering",
       dateRange: "2019-2020",
       description: 
-        "Graduated Magna Cum Laude with 3.8 GPA",
+        "",
     },
   ],
 };
