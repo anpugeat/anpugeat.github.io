@@ -25,28 +25,28 @@ export const siteConfig = {
       name: "Shaking Table to Extract Microplastics from River Shorelines",
       description:
         "Inspired by the Mining Industry's Wilfley Tables which sort gold from crushed rock, I developed a cheap, portable shaking table with a novel flexure guide system to remove microplastics from the River Thames",
-      link: "https://aidevroundup.com/?ref=devportfolio",
+      link: "https://github.com/anpugeat/microplastics-removal-project",
       skills: ["Fusion360", "Minitab", "MATLAB"],
     },
     {
       name: "Machine Learning Analysis Framework for Supernova Neutrino Detection",
       description:
         "Using physics-based noise simulation, CNNs, U-Net autoencoders, and Bayesian-optimised networks, I developed an ML framework to identify supernova neutrino events from MicroBooNE's Liquid-Argon Time-Projection Chamber data",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
+      link: "https://github.com/anpugeat/supernova-neutrino-detection",
       skills: ["Python", "Tensorflow", "Keras"],
     },
     {
       name: "Analysis Algorithm for Multi-Exponential Fluorescence Decay",
       description:
         "I devised a novel tail-fitting algorithm for the Time-Correlated Single Photon Counting data from biological proteins, resolving convoluted anisotropic data like enzyme binding states and rotational correlation times",
-      link: "https://extensionkit.io/?ref=devportfolio",
+      link: "https://github.com/anpugeat/fluorescence-decay-analysis",
       skills: ["OriginPro", "MATLAB", "Python"],
     },
     {
       name: "UK Energy Transition Research & Offshore Wind Analysis Framework",
       description:
         "I conducted a quantitative analysis of the UK's energy transition and designed an optimised offshore wind farm using geospatial analysis: incorporating wind mapping, power curve modelling and Rayleigh distribution analyses.",
-      link: "https://extensionkit.io/?ref=devportfolio",
+      link: "https://github.com/anpugeat/UK-offshore-wind-analysis",
       skills: ["Python", "PyWake", "Data Visualisation"],
     },
   ],
