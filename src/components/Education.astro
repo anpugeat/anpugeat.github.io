@@ -42,6 +42,20 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                   <p class="space-y-2">
                     {edu.description}
                   </p>
+
+                  {edu.skills && edu.skills.length > 0 && (
+                          <div class="flex flex-wrap gap-1.5 sm:gap-2 pt-4">
+                            {edu.skills.map((skill) => (
+                              <span
+                                class={`px-2.5 sm:px-3 py-1 sm:py-1.5 bg-gray-100 text-gray-800 rounded-md sm:rounded-lg text-xs sm:text-sm font-medium transition-all duration-300 ${
+                                  edu.link ? "group-hover:bg-gray-800" : ""
+                                }`}
+                              >
+                                {skill}
+                              </span>
+                            ))}
+                          </div>
+                        )}
                 </div>
               ))}
             </div>
