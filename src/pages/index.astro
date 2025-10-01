@@ -5,6 +5,7 @@ import About from "../components/About.astro";
 import Projects from "../components/Projects.astro";
 import Experience from "../components/Experience.astro";
 import Education from "../components/Education.astro";
+import Service from "../components/Service.astro";
 import Footer from "../components/Footer.astro";
 import { siteConfig } from "../config";
 import "../styles/global.css";
@@ -13,7 +14,7 @@ import "../styles/global.css";
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="https://github.com/anpugeat/anpugeat.github.io/blob/main/public/logo.png"/>
+    <link rel="icon" type="image/png" href="/favicon.png"/>
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={siteConfig.description} />
@@ -33,6 +34,7 @@ import "../styles/global.css";
       <Projects />
       <Experience />
       <Education />
+      <Service />
     </section>
     <Footer />
   </body>
