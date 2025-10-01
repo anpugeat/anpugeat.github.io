@@ -90,8 +90,8 @@ export const siteConfig = {
       degree: "International Baccalaureate",
       dateRange: "2005-2019",
       description: 
-        "Through starting my education in an international community in Beijing, I was able to immerse myself in a variety of communities and cultures and enhance my ability to work across different groups.",
-      skills: ["Python", "Tensorflow", "Keras"],
+        "By starting my educational journey at an international school in Beijing, I was able to immerse myself in a variety of communities and cultures, equipping me with the ability to collaborate and coexist effectively across different groups. Dulwich Beijing has provided me with a world-wise educational foundation instilling an eagerness for embracing new challenges.",
+      skills: ["Physics", "Mathematics"],
     },
     {
       school: "Hong Kong University of Science and Technology",
@@ -102,25 +102,23 @@ export const siteConfig = {
         "in the academically-rigorous environment, developing my engineering fundamentals with Arduino robotics, intro programming (C++ and Java) and also mathematical foundations "+
         "through courses like multivariable calculus, fluid mechanics and differential equations courses. Beyond schoolwork, I also gained experience in engineering development pipelines, "+
         "leading a team in HKUST's TechVention competition to design a portable air purifier and placing 8th among 92 teams.",
-      skills: ["Python", "Tensorflow", "Keras"],
+      skills: ["Multivariable Calculus","Computing with Java","Differential Equations","Electro-Robot Design"],
     },
     {
       school: "University College London",
       degree: "Bachelor of Science in Physics",
       dateRange: "2020-2023",
       description: 
-        "At UCL, I was able to further broaden my technical skillset with exposure to physics theory, rigorous mathematics and laboratory work through courses like Mathematical Methods I-III, Data Analysis & Statistics, Electromagnetic Theory and Quantum Mechanics. "+
-        "I was also able to thrive in numerous group settings, developing my teamwork skills with group projects on technical communication, Hall-effect testing of thin-film Bismuth, and statistical analysis of Time-Correlated Single Photon Counting. In each of these projects, I was fortunate to be awarded the highest peer-review grades."+
-        "I also enjoyed that the department was also forward-looking. Among my favourite modules were the newly-introduced Practical Machine Learning for Physicists and Practical Physics and Computing courses, which allowed me to develop Python application and gain exposure to Keras & Tensorflow.",
-      skills: ["Python", "Tensorflow", "Keras"],
+        "At UCL, I was able to further broaden my technical skillset with exposure to physics theory, rigorous mathematics and laboratory work through courses like Mathematical Methods I-III, Data Analysis & Statistics, Electromagnetic Theory and Quantum Mechanics. I was also able to thrive in numerous group settings, developing my teamwork skills with group projects on technical communication, Hall-effect testing of thin-film Bismuth, and statistical analysis of Time-Correlated Single Photon Counting. In each of these projects, I was fortunate to be awarded the highest peer-review grade. I mostly enjoyed the department's forward-looking approach. Among my favourite modules were the newly-introduced Practical Machine Learning for Physicists and Practical Physics and Computing courses, which allowed me to develop Python application and gain exposure to Keras & Tensorflow.",
+      skills: ["Practical Machine Learning for Physicists","Mathematical Methods I-III","Data Analysis & Statistics","Practical Physics and Computing"],
     },
     {
       school: "University College London",
       degree: "Master of Science in Mechanical Engineering",
       dateRange: "2023 - 2025",
       description: 
-        "My cohort was also taught machine learning theory and practice, with UCL's new Practcial Machine Learning for Physicists module teaching us basics to Keras and Tensorflow and how to apply them. This was most certainly my favourite module from the course.",
-      skills: ["Python", "Tensorflow", "Keras"],    
+        "Continuing my studies at UCL, I was able to specialise my technical skillset in engineering disciplines, covering level 7 courses spanning robotics control, power transmissions, materials, and energy theory. I learned industry-standard engineering software including ANSYS Fluent and APDL for Finite Element Analysis and Computational Fluid Dynamics. I was also able to learn key professional skills in project management, as well as end-to-end engineering development through my thesis project. Overall, my time at UCL has provided me with a versatile skillset, and I feel prepared to confidently tackle any complex challenges in the future.",
+      skills: ["Advanced Computation in Engineering","Control and Robotics","Project Management","New and Renewable Energy Systems"],    
     },
   ],
   service: 
