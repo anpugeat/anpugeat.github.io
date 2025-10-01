@@ -55,6 +55,7 @@ export const siteConfig = {
       company: "Edue",
       title: "Project Engineering Intern",
       dateRange: "Sep 2023 - Feb 2024",
+      link: "https://github.com/anpugeat/RAG-discord-bot",
       bullets: [
         "Surveyed 400+ UK schools, generating insights informing go-to-market strategy and customer segmentation",
         "Developed a RAG-based Discord chatbot using Python, LlamaIndex, ChromaDB and OpenAI APIs",
@@ -65,6 +66,7 @@ export const siteConfig = {
       company: "Warneken Consulting",
       title: "Material Science Research Intern",
       dateRange: "Jun 2023 - Aug 2023",
+      link: "https://github.com/anpugeat/UK-offshore-wind-analysis",
       bullets: [
         "Developed Python framework for lathe optimisation, evaluating 500+ materials with a scoring algorithm",
         "Created analytical dashboards in Python to identify optimal material-component pairings",
@@ -84,25 +86,75 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University College London",
-      degree: "Master of Science in Mechanical Engineering",
-      dateRange: "2023 - 2025",
+      school: "Dulwich College Beijing",
+      degree: "International Baccalaureate",
+      dateRange: "2005-2019",
       description: 
-        "",
-    },
-    {
-      school: "University College London",
-      degree: "Bachelor of Science in Physics",
-      dateRange: "2020-2023",
-      description: 
-        "",
+        "Through starting my education in an international community in Beijing, I was able to immerse myself in a variety of communities and cultures and enhance my ability to work across different groups.",
+      skills: ["Python", "Tensorflow", "Keras"],
     },
     {
       school: "Hong Kong University of Science and Technology",
       degree: "Bachelor of Engineering",
       dateRange: "2019-2020",
       description: 
-        "",
+        "I was fortunate to be accepted into HKUST with an admissions scholarship. My time there was short, however, having left the school due to safety concerns during the 2019 protests. During this time, I was able to flourish "+
+        "in the academically-rigorous environment, developing my engineering fundamentals with Arduino robotics, intro programming (C++ and Java) and also mathematical foundations "+
+        "through courses like multivariable calculus, fluid mechanics and differential equations courses. Beyond schoolwork, I also gained experience in engineering development pipelines, "+
+        "leading a team in HKUST's TechVention competition to design a portable air purifier and placing 8th among 92 teams.",
+      skills: ["Python", "Tensorflow", "Keras"],
+    },
+    {
+      school: "University College London",
+      degree: "Bachelor of Science in Physics",
+      dateRange: "2020-2023",
+      description: 
+        "At UCL, I was able to further broaden my technical skillset with exposure to physics theory, rigorous mathematics and laboratory work through courses like Mathematical Methods I-III, Data Analysis & Statistics, Electromagnetic Theory and Quantum Mechanics. "+
+        "I was also able to thrive in numerous group settings, developing my teamwork skills with group projects on technical communication, Hall-effect testing of thin-film Bismuth, and statistical analysis of Time-Correlated Single Photon Counting. In each of these projects, I was fortunate to be awarded the highest peer-review grades."+
+        "I also enjoyed that the department was also forward-looking. Among my favourite modules were the newly-introduced Practical Machine Learning for Physicists and Practical Physics and Computing courses, which allowed me to develop Python application and gain exposure to Keras & Tensorflow.",
+      skills: ["Python", "Tensorflow", "Keras"],
+    },
+    {
+      school: "University College London",
+      degree: "Master of Science in Mechanical Engineering",
+      dateRange: "2023 - 2025",
+      description: 
+        "My cohort was also taught machine learning theory and practice, with UCL's new Practcial Machine Learning for Physicists module teaching us basics to Keras and Tensorflow and how to apply them. This was most certainly my favourite module from the course.",
+      skills: ["Python", "Tensorflow", "Keras"],    
     },
   ],
+  service: 
+    "Across my University life, I've also held multiple service roles which provided valuable income while also contributing to my growth. These experiences have allowed me to develop professionally, by learning to effectively manage working responsibilities on top of academic and other commitments. Most importantly, I was able to enhance my interpersonal skills, improving my ability to coexist with others and work more effectively within any team.",
+  roles: [
+    {
+    company: "UNIQLO",
+    position: "Sales Associate",
+    dateRange: "2025-Present",
+    logo: "/logos/UNIQLO_logo.svg",
+    description: "Delivered customer service and sales support at UNIQLO's Oxford Street store in central London.",
+    },
+    {
+      company: "The Coffee Tree",
+      position: "Barista",
+      dateRange: "2024-2025",
+      logo: "/logos/coffee_tree_logo.png",
+      backgroundcolor: "bg-gray-800",
+      description: "Managed solo high-volume coffee service at a bustling café in London Old Street.",
+    },
+    {
+      company: "CoCo Ichibanya",
+      position: "Floor Staff",
+      dateRange: "2024-2025",
+      logo: "/logos/coco_logo.png",
+      backgroundcolor: "bg-gray-800",
+      description: "Maintaining hospitality and operations at a high-traffic restaurant in Leicester Square, London.",
+      },
+      {
+        company: "WeEnglish",
+        position: "Maths & Physics Tutor",
+        dateRange: "2022-2024",
+        logo: "/logos/weenglish_logo.png",
+        description: "Offerred personalised mathematics & physics tutoring to high-school students in both English and Chinese. ",
+      },
+  ]
 };
