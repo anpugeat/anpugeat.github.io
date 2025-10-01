@@ -117,7 +117,7 @@ export const siteConfig = {
       degree: "Master of Science in Mechanical Engineering",
       dateRange: "2023 - 2025",
       description: 
-        "Continuing my studies at UCL, I was able to specialise my technical skillset in engineering disciplines, covering level 7 courses spanning robotics control, power transmissions, materials, and energy theory. I learned industry-standard engineering software including ANSYS Fluent and APDL for Finite Element Analysis and Computational Fluid Dynamics. I was also able to learn key professional skills in project management, as well as end-to-end engineering development through my thesis project. Overall, my time at UCL has provided me with a versatile skillset, and I feel prepared to confidently tackle any complex challenges in the future.",
+        "Continuing my studies at UCL, I was able to specialise my technical skillset in engineering disciplines, covering level 7 courses spanning robotics control, power transmissions, materials, and energy theory. I learned industry-standard engineering software including ANSYS Fluent and APDL for Finite Element Analysis and Computational Fluid Dynamics. I was also able to learn key professional skills in project management, as well as end-to-end engineering development through my thesis project. Overall, my time at UCL has provided me with a versatile skillset, and I feel confident in tackling any future technical challenges.",
       skills: ["Advanced Computation in Engineering","Control and Robotics","Project Management","New and Renewable Energy Systems"],    
     },
   ],
