@@ -152,7 +152,7 @@ export const siteConfig = {
         position: "Maths & Physics Tutor",
         dateRange: "2022-2024",
         logo: "/logos/weenglish_logo.png",
-        description: "Offerred personalised mathematics & physics tutoring to high-school students in both English and Chinese. ",
+        description: "Offered personalised mathematics & physics tutoring to high-school students in both English and Chinese. ",
       },
   ]
 };
