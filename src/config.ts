@@ -19,7 +19,7 @@ export const siteConfig = {
     "This website offers a bit more insight into who I am - I hope you will find that I am a good fit for your company!"
     
     ,
-  skills: ["Python", "SQL", "Tensorflow", "Keras", "Pandas", "SciPy", "Plotly", "GIT", "ChromaDB"],
+  skills: ["Python", "SQL", "Tensorflow", "Keras", "Pandas", "SciPy", "Plotly", "AWS", "GIT", "ChromaDB"],
   projects: [
     {
       name: "Shaking Table to Extract Microplastics from River Shorelines",
