@@ -129,7 +129,7 @@ export const siteConfig = {
     position: "Sales Associate",
     dateRange: "2025-Present",
     logo: "/logos/UNIQLO_logo.svg",
-    description: "Delivered customer service and sales support at UNIQLO's Oxford Street store in central London.",
+    description: "Delivered customer service and sales support at UNIQLO's 311 Oxford Street store in central London.",
     },
     {
       company: "The Coffee Tree",
