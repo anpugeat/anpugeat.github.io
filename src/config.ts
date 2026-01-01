@@ -13,8 +13,8 @@ export const siteConfig = {
     "background, having studied at international hubs like Beijing, Hong Kong and London. "+
     
     "Upon completing my degrees, I had recalled a thorough enjoyment out of completing a variety of data analysis, coding and machine learning modules. "+
-    "I found myself self-learning a number of Data Science, Data Engineering & Machine Learning modules from both UCL's MSc Data Science and ML course as well as accredited "+
-    "third-party teaching programs. I know that this is what I want to do and am eager for the opportunity to learn and grow in this field. "+
+    "I found myself self-learning a number of data science, data engineering & machine learning modules from both UCL's MSc Data Science and ML course as well as accredited "+
+    "third-party teaching programs. I know that this is what I want to do for a career and am eager for the opportunity to show what I can do, as well as learn and grow in this field. "+
     "This website offers a bit more insight into who I am - I hope you will find that I am a good fit for your company!"
     ,
   skills: [
