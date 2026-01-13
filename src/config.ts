@@ -120,14 +120,14 @@ export const siteConfig = {
     },
   ],
   service:
-    "I have balanced my academic career with service and sales roles that required high-volume management, customer-facing communication, and team reliability.",
+    "Throughout my academic life, I have also supplemented my income by working in various service jobs. These experiences were invaluable, teaching me the importance of teamwork - specifically, appreciating the colleagues I work with - and time management, through juggling part-time work with academic commitments on top of day-to-day life.",
   roles: [
     {
       company: "UNIQLO",
-      position: "Sales Associate",
+      position: "Visual Merchandiser",
       dateRange: "2025-Present",
       logo: "/logos/UNIQLO_logo.svg",
-      description: "Sales support and inventory management at UNIQLO's Oxford Street flagship.",
+      description: "Designing and creating appealing product displays at UNIQLO's Oxford Street flagship.",
     },
     {
       company: "The Coffee Tree",
@@ -140,7 +140,7 @@ export const siteConfig = {
     {
       company: "CoCo Ichibanya",
       position: "Floor Staff",
-      dateRange: "2024-2025",
+      dateRange: "2023-2024",
       logo: "/logos/coco_logo.png",
       backgroundcolor: "bg-gray-800",
       description: "Operations and hospitality at Leicester Square location.",
@@ -148,9 +148,9 @@ export const siteConfig = {
     {
       company: "WeEnglish",
       position: "STEM Tutor",
-      dateRange: "2022-2024",
+      dateRange: "2022-2025",
       logo: "/logos/weenglish_logo.png",
-      description: "Personalised Mathematics & Physics tutoring (English/Chinese).",
+      description: "Personalised Mathematics & Physics tutoring (English & Chinese).",
     },
   ],
 };
