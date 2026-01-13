@@ -9,14 +9,12 @@ export const siteConfig = {
     github: "https://github.com/anpugeat",
   },
   aboutMe:
-    "Hi! You've probably seen my CV already. This is just a little more about me. \n\n I'm an eager STEM graduate from a globally-diverse "+
-    "background, having studied at international hubs like Beijing, Hong Kong and London. "+
-    
-    "Upon completing my degrees, I had recalled a thorough enjoyment out of completing a variety of data analysis, coding and machine learning modules. "+
-    "I found myself self-learning a number of data science, data engineering & machine learning modules from both UCL's MSc Data Science and ML course as well as accredited "+
-    "third-party teaching programs. I know that this is what I want to do for a career and am eager for the opportunity to show what I can do, as well as learn and grow in this field. "+
-    "This website offers a bit more insight into who I am - I hope you will find that I am a good fit for your company!"
-    ,
+    "Hi! You've probably seen my CV already. This is just a little more about me. \n\n"+
+    "I'm an eager STEM graduate from a globally-diverse background, having studied at international hubs in Beijing, Hong Kong and London.\n\n"+ 
+    "Reflecting on my degrees, I had recalled a thorough enjoyment in data analysis, coding and machine learning. I found myself studying modules from UCL's MSc in Data Science and ML, "+
+    "alongside other accredited programs. I am committed to this career path and am eager for the opportunity to demonstrate my skills, while continuing to learn and grow. I hope this website "+
+    "gives you a better insight into why I would be a great fit for your team!"
+  ,
   skills: [
     "Python",
     "SQL",
