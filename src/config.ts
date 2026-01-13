@@ -34,7 +34,7 @@ export const siteConfig = {
       name: "Supernova Neutrino Event Analysis (Deep Learning)",
       description:
         "Architected an end-to-end DL pipeline (TensorFlow) to detect neutrino events in high-noise environments. Engineered a custom ResNet-18 for energy regression and U-Net for denoising, reducing Mean Absolute Error (MAE) by 45%.",
-      link: "https://github.com/anpugeat/supernova-neutrino-detection", 
+      link: "https://github.com/anpugeat/supernova-neutrino-classification", 
       skills: ["Python", "TensorFlow", "Computer Vision", "Autoencoders"],
     },
     {
