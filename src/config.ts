@@ -81,7 +81,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Sinovision-Tech",
+      company: "SINOVISION",
       title: "Test Engineering Intern",
       dateRange: "Jun 2022 - Aug 2022",
       bullets: [
