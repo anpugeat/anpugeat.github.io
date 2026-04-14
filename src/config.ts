@@ -9,31 +9,22 @@ export const siteConfig = {
     github: "https://github.com/anpugeat",
   },
   aboutMe:
-    "Hi there! You've probably seen my CV already. This is just a little more about me. \n\n I'm an eager STEM graduate from a globally-diverse "+
-    "background, having studied at international hubs like Beijing, Hong Kong and London. "+
-    
-    "Upon completing my degrees, I had recalled a thorough enjoyment out of completing a variety of data analysis, coding and machine learning modules. "+
-    "I found myself self-learning a number of Data Science and ML modules from both UCL's MSc Data Science and ML course as well as accredited "+
-    "teaching programs like Coursera. I've confirmed now that, for my career, Data Science is what I want to do. I am excited for the chance at a role in "+
-    "this field and to dedicate myself fully towards it. "+
-    "This website offers a bit more insight into who I am - I hope you will find that I am a good fit for your company!"
-    
+    "Hi there - thanks for stopping by. If you've already seen my CV, consider this the story behind it. I'm a STEM graduate shaped by an international academic journey across Beijing, Hong Kong, and London. It was during my degrees that I discovered how much I enjoyed the modules involving data analysis, coding, and machine learning — enough that I kept going on my own, working through material from UCL's MSc in Data Science and Machine Learning alongside courses on Coursera and other accredited platforms. That self-directed exploration confirmed what I'd started to suspect: Data Science is the field I want to build my career in. I'm drawn to the mix of rigorous problem-solving, engineering craft, and the satisfaction of turning messy data into decisions that matter. Take a look around — I hope what you find here makes the case that I'd be a strong addition to your team."
     ,
-  skills: ["Python", "SQL", "Tensorflow", "Keras", "Pandas", "SciPy", "Plotly", "GIT", "ChromaDB"],
+  skills: ["Python", "PostgreSQL", "ETL Pipelines", "pandas / NumPy / scikit-learn", "Machine Learning (CNNs, ResNets, U-Nets)", "Tensorflow / Keras", "Unsupervised ML (UMAP, HDBSCAN, k-means)", "RAG / LLMs (LlamaIndex, ChromaDB, OpenAI API)"],
   projects: [
     {
-      name: "Shaking Table to Extract Microplastics from River Shorelines",
+      name: "TFTExodia.com - Analytics Platform",
       description:
-        "Inspired by the Mining Industry's Wilfley Tables which sort gold from crushed rock, I developed a cheap, portable shaking table with a novel flexure guide system to remove microplastics from the River Thames",
-      link: "https://github.com/anpugeat/microplastics-removal-project",
-      skills: ["Fusion360", "Minitab", "MATLAB"],
+        "Built an end-to-end analytics platform that mines 200k+ high-elo Teamfight Tactics matches to surface meta team compositions via unsupervised ML, identifying 35+ distinct archetypes — including several untracked by sites like MetaTFT. Engineered a Python ingestion pipeline against the Riot Games API into a normalised PostgreSQL schema (Dockerised, psycopg2 ETL), with daily automated refreshes via launchd. Clustered compositions using MultiLabelBinarizer features, UMAP (Jaccard) for dimensionality reduction, and HDBSCAN. Frontend in TypeScript/Next.js with Tailwind, deployed on Vercel.",
+      skills: ["Python (psycopg2, pandas, scikit-learn)", "PostgreSQL", "Docker", "ETL Pipelines", "Unsupervised ML (UMAP, HDBSCAN)",  ],
     },
     {
-      name: "Machine Learning Analysis Framework for Supernova Neutrino Detection",
+      name: "Supernova Neutrino Event Analysis",
       description:
-        "Using physics-based noise simulation, CNNs, U-Net autoencoders, and Bayesian-optimised networks, I developed an ML framework to identify supernova neutrino events from MicroBooNE's Liquid-Argon Time-Projection Chamber data",
+      "Built an end-to-end ML pipeline in TensorFlow/Keras to detect, classify, and denoise simulated supernova neutrino events in 10,000+ Liquid Argon Time-Projection Chamber (LArTPC) detector images. Engineered physics-based noise simulation, a ResNet-18 classifier robust to heavy noise (98% accuracy), a U-Net denoising autoencoder, and a Bayesian-optimised regression model that cut energy-prediction error by 45% (to 8% MAE).",
       link: "https://github.com/anpugeat/supernova-neutrino-detection",
-      skills: ["Python", "Tensorflow", "Keras"],
+      skills: ["Python", "Tensorflow / Keras", "Machine Learning (CNNs, ResNets, U-Nets)", "Image Classification & Denoising", "Regression"],
     },
     {
       name: "Analysis Algorithm for Multi-Exponential Fluorescence Decay",
@@ -41,6 +32,13 @@ export const siteConfig = {
         "I devised a novel tail-fitting algorithm for the Time-Correlated Single Photon Counting data from biological proteins, resolving convoluted anisotropic data like enzyme binding states and rotational correlation times",
       link: "https://github.com/anpugeat/fluorescence-decay-analysis",
       skills: ["OriginPro", "MATLAB", "Python"],
+    },
+    {
+      name: "Shaking Table to Extract Microplastics from River Shorelines",
+      description:
+        "Inspired by the Mining Industry's Wilfley Tables which sort gold from crushed rock, I developed a cheap, portable shaking table with a novel flexure guide system to remove microplastics from the River Thames",
+      link: "https://github.com/anpugeat/microplastics-removal-project",
+      skills: ["Fusion360", "Minitab", "MATLAB"],
     },
     {
       name: "UK Energy Transition Research & Offshore Wind Analysis Framework",
