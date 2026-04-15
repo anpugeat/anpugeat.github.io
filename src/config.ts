@@ -17,13 +17,14 @@ export const siteConfig = {
       name: "TFTExodia.com - Analytics Platform",
       description:
         "Built an end-to-end analytics platform that mines 200k+ high-elo Teamfight Tactics matches to surface meta team compositions via unsupervised ML, identifying 35+ distinct archetypes — including several untracked by sites like MetaTFT. Engineered a Python ingestion pipeline against the Riot Games API into a normalised PostgreSQL schema (Dockerised, psycopg2 ETL), with daily automated refreshes via launchd. Clustered compositions using MultiLabelBinarizer features, UMAP (Jaccard) for dimensionality reduction, and HDBSCAN. Frontend in TypeScript/Next.js with Tailwind, deployed on Vercel.",
-      skills: ["Python (psycopg2, pandas, scikit-learn)", "PostgreSQL", "Docker", "ETL Pipelines", "Unsupervised ML (UMAP, HDBSCAN)",  ],
+      link: "https://tftexodia.com",
+        skills: ["Python (psycopg2, pandas, scikit-learn)", "PostgreSQL", "Docker", "ETL Pipelines", "Unsupervised ML (UMAP, HDBSCAN)",  ],
     },
     {
       name: "Supernova Neutrino Event Analysis",
       description:
       "Built an end-to-end ML pipeline in TensorFlow/Keras to detect, classify, and denoise simulated supernova neutrino events in 10,000+ Liquid Argon Time-Projection Chamber (LArTPC) detector images. Engineered physics-based noise simulation, a ResNet-18 classifier robust to heavy noise (98% accuracy), a U-Net denoising autoencoder, and a Bayesian-optimised regression model that cut energy-prediction error by 45% (to 8% MAE).",
-      link: "https://github.com/anpugeat/supernova-neutrino-detection",
+      link: "https://github.com/anpugeat/supernova-neutrino-classification",
       skills: ["Python", "Tensorflow / Keras", "Machine Learning (CNNs, ResNets, U-Nets)", "Image Classification & Denoising", "Regression"],
     },
     {
