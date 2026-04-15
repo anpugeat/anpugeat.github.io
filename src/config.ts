@@ -9,7 +9,7 @@ export const siteConfig = {
     github: "https://github.com/anpugeat",
   },
   aboutMe:
-    "Hi there - thanks for stopping by. If you've already seen my CV, consider this the story behind it. I'm a STEM graduate shaped by an international academic journey across Beijing, Hong Kong, and London. It was during my degrees that I discovered how much I enjoyed the modules involving data analysis, coding, and machine learning — enough that I kept going on my own, working through material from UCL's MSc in Data Science and Machine Learning alongside courses on Coursera and other accredited platforms. That self-directed exploration confirmed what I'd started to suspect: Data Science is the field I want to build my career in. I'm drawn to the mix of rigorous problem-solving, engineering craft, and the satisfaction of turning messy data into decisions that matter. Take a look around — I hope what you find here makes the case that I'd be a strong addition to your team."
+    "Hi there - thanks for stopping by. If you've already seen my CV, consider this the story behind it.\n\nI'm a STEM graduate shaped by an international academic journey across Beijing, Hong Kong, and London. It was during my degrees that I discovered how much I enjoyed the modules involving data analysis, coding, and machine learning — enough that I kept going on my own, working through material from UCL's MSc in Data Science and Machine Learning alongside courses on Coursera and other accredited platforms.\n\nThat self-directed exploration confirmed what I'd started to suspect: Data Science is the field I want to build my career in. I'm drawn to the mix of rigorous problem-solving, engineering craft, and the satisfaction of turning messy data into decisions that matter.\n\nTake a look around — I hope what you find here makes the case that I'd be a strong addition to your team."
     ,
   skills: ["Python", "PostgreSQL", "ETL Pipelines", "pandas / NumPy / scikit-learn", "Machine Learning (CNNs, ResNets, U-Nets)", "Tensorflow / Keras", "Unsupervised ML (UMAP, HDBSCAN, k-means)", "RAG / LLMs (LlamaIndex, ChromaDB, OpenAI API)"],
   projects: [
@@ -27,9 +27,9 @@ export const siteConfig = {
       skills: ["Python", "Tensorflow / Keras", "Machine Learning (CNNs, ResNets, U-Nets)", "Image Classification & Denoising", "Regression"],
     },
     {
-      name: "Analysis Algorithm for Multi-Exponential Fluorescence Decay",
+      name: "Fluorescence Decay Analysis for Time-Resolved Spectroscopy",
       description:
-        "I devised a novel tail-fitting algorithm for the Time-Correlated Single Photon Counting data from biological proteins, resolving convoluted anisotropic data like enzyme binding states and rotational correlation times",
+        "Built a Python/MATLAB pipeline to extract signal from noisy, high-throughput photon-count time series, developing a novel tail-fitting methodology for multi-exponential decay models. Applied weighted least-squares regression with custom preprocessing (statistical truncation, residual filtering) to handle heteroscedastic noise, validated against ground truth at 98.0% accuracy on lifetime, 97.5% on amplitude, and 96.3% on rotational correlation times.",
       link: "https://github.com/anpugeat/fluorescence-decay-analysis",
       skills: ["OriginPro", "MATLAB", "Python"],
     },
@@ -51,7 +51,7 @@ export const siteConfig = {
   experience: [
     {
       company: "Edue",
-      title: "Project Engineering Intern",
+      title: "Software Engineering Intern",
       dateRange: "Sep 2023 - Feb 2024",
       link: "https://github.com/anpugeat/RAG-discord-bot",
       bullets: [
