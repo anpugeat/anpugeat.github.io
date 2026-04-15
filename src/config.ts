@@ -31,21 +31,21 @@ export const siteConfig = {
       description:
         "Built a Python/MATLAB pipeline to extract signal from noisy, high-throughput photon-count time series, developing a novel tail-fitting methodology for multi-exponential decay models. Applied weighted least-squares regression with custom preprocessing (statistical truncation, residual filtering) to handle heteroscedastic noise, validated against ground truth at 98.0% accuracy on lifetime, 97.5% on amplitude, and 96.3% on rotational correlation times.",
       link: "https://github.com/anpugeat/fluorescence-decay-analysis",
-      skills: ["OriginPro", "MATLAB", "Python"],
+      skills: ["MATLAB", "Statistical Modelling & Regression", "Signal Processing & Noise Handling", "Data Preprocessing"],
     },
     {
       name: "Shaking Table to Extract Microplastics from River Shorelines",
       description:
-        "Inspired by the Mining Industry's Wilfley Tables which sort gold from crushed rock, I developed a cheap, portable shaking table with a novel flexure guide system to remove microplastics from the River Thames",
+        "Pioneered a novel application of shaking tables (a mining technology) for shoreline microplastics removal. Reduced a 6-dimensional parameter space to 2 key drivers using Plackett-Burman fractional factorial screening and ANOVA significance testing. Fit quadratic response-surface models via Central Composite Design on a synthetic-sediment dataset, optimising recovery to 88.1%, separation efficiency to 75.3%, and purity to 85.8%. Diagnosed distribution shift on out-of-sample River Thames field data (recovery dropped to ~60%) and traced the gap to unmodelled covariates (organic matter, biofouling) altering feature distributions.",
       link: "https://github.com/anpugeat/microplastics-removal-project",
-      skills: ["Fusion360", "Minitab", "MATLAB"],
+      skills: ["Design of Experiments (Plackett-Burman, Central Composite Design)", "Statistical Modelling / Response Surface Methodology", "Feature Selection & Dimensionality Reduction", "Minitab"],
     },
     {
       name: "UK Energy Transition Research & Offshore Wind Analysis Framework",
       description:
-        "I conducted a quantitative analysis of the UK's energy transition and designed an optimised offshore wind farm using geospatial analysis: incorporating wind mapping, power curve modelling and Rayleigh distribution analyses.",
+        "Built a Python simulation pipeline (NumPy, Matplotlib, PyWake) modelling stochastic wind patterns via Weibull/Rayleigh distributions and vectorised power-curve calculations to forecast turbine output, validated against the DTU PyWake benchmark — optimising site and turbine selection to a Levelised Cost of Electricity of £42/MWh (14% below market) at a 63.4% capacity factor (408 GWh/year).",
       link: "https://github.com/anpugeat/UK-offshore-wind-analysis",
-      skills: ["Python", "PyWake", "Data Visualisation"],
+      skills: ["Python", "Statistical Modelling", "Time-Series Analysis", "ETL Pipelines"],
     },
   ],
   experience: [
