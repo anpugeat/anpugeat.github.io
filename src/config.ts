@@ -54,12 +54,13 @@ export const siteConfig = {
       title: "Software Engineering Intern",
       dateRange: "Sep 2023 - Feb 2024",
       description:
-      "hi",
+      "A Python-based Discord bot that answers student coursework questions with citations grounded in their actual textbooks and research papers, built on a Retrieval-Augmented Generation (RAG) pipeline.\n\nRather than relying on a generic LLM that may hallucinate, Edue Bot retrieves relevant passages from a curated library of course materials and uses them as context for its responses — giving students answers they can trust and trace back to source.",
       link: "https://github.com/anpugeat/RAG-discord-bot",
       bullets: [
-        "Surveyed 400+ UK schools, generating insights informing go-to-market strategy and customer segmentation",
-        "Developed a RAG-based Discord chatbot using Python, LlamaIndex, ChromaDB and OpenAI APIs",
-        "Created an asynchronous Notion framework to streamline front/back-end communication",
+        "Ingests heterogeneous educational documents (PDFs, DOCX) into a clean, searchable knowledge base",
+        "Performs semantic search over embedded course content to surface the most relevant passages for any question",
+        "Routes queries intelligently between LLMs - heavier models for complex reasoning, lighter ones for casual chat - to keep inference costs low without sacrificing answer quality",
+        "Enforces per-user rate limits to ensure fair access across a shared student community",
       ],
     },
     {
@@ -67,10 +68,12 @@ export const siteConfig = {
       title: "Material Science Research Intern",
       dateRange: "Jun 2023 - Aug 2023",
       link: "https://github.com/anpugeat/UK-offshore-wind-analysis",
+      description:
+      "Built an end-to-end materials selection pipeline that combines engineering requirements analysis with a custom database and multi-criteria optimisation to recommend optimal materials for each component of a precision lathe.",
       bullets: [
-        "Developed Python framework for lathe optimisation, evaluating 500+ materials with a scoring algorithm",
-        "Created analytical dashboards in Python to identify optimal material-component pairings",
-        "Devised constraint filtering algorithm ranking materials based on properties for 12 lathe components",
+        "Designed a SQLite materials database (200+ candidates) with ingestion from the Materials Project API, MatWeb, and literature sources. Added schema validation, provenance tracking, and confidence flags to handle messy, heterogeneous inputs.",
+        "Encoded engineering requirements as a quantitative scoring framework — hard constraints plus weighted objectives across 10+ properties (stiffness, damping, thermal expansion, cost) using Ashby performance indices.",
+        "Python (pandas, NumPy, scikit-learn) implementing constraint filtering, normalised multi-criteria scoring, and Pareto-front extraction to produce ranked shortlists per component.",
       ],
     },
     {
@@ -88,10 +91,10 @@ export const siteConfig = {
     {
       school: "Dulwich College Beijing",
       degree: "International Baccalaureate",
-      dateRange: "2005-2019",
+      dateRange: "2017-2019",
       description: 
-        "By starting my educational journey at an international school in Beijing, I was able to immerse myself in a variety of communities and cultures, equipping me with the ability to collaborate and coexist effectively across different groups. Dulwich Beijing has provided me with a world-wise educational foundation instilling an eagerness for embracing new challenges.",
-      skills: ["Physics", "Mathematics"],
+        "Graduated with an IB Diploma score of 40/45, including 7/7 in Higher Level Physics, 6/7 in Higher Level Mathematics, and 7/7 in Chinese. Completed an A-grade Extended Essay titled \"Measuring the Mass of Jupiter via Telescope\" — an empirical project involving astronomical observation, data collection, and applying Kepler's laws to derive a physical constant from measured data. This early exposure to extracting insight from raw observational data shaped my interest in data-driven problem solving. Outside academics, served as Sports Prefect, leading the school's Terry Fox Run and hosting the annual sports awards — experiences that built my skills in event coordination and public communication within an international community.",
+      skills: ["Physics HL", "Mathematics HL", "Chinese SL"],
     },
     {
       school: "Hong Kong University of Science and Technology",
