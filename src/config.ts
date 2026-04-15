@@ -53,6 +53,8 @@ export const siteConfig = {
       company: "Edue",
       title: "Software Engineering Intern",
       dateRange: "Sep 2023 - Feb 2024",
+      description:
+      "hi",
       link: "https://github.com/anpugeat/RAG-discord-bot",
       bullets: [
         "Surveyed 400+ UK schools, generating insights informing go-to-market strategy and customer segmentation",
