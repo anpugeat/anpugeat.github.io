@@ -93,7 +93,7 @@ export const siteConfig = {
       degree: "International Baccalaureate",
       dateRange: "2017-2019",
       description: 
-        "Graduated with an IB Diploma score of 40/45, including 7/7 in Higher Level Physics, 6/7 in Higher Level Mathematics, and 7/7 in Chinese. Completed an A-grade Extended Essay titled \"Measuring the Mass of Jupiter via Telescope\" — an empirical project involving astronomical observation, data collection, and applying Kepler's laws to derive a physical constant from measured data. This early exposure to extracting insight from raw observational data shaped my interest in data-driven problem solving. Outside academics, served as Sports Prefect, leading the school's Terry Fox Run and hosting the annual sports awards — experiences that built my skills in event coordination and public communication within an international community.",
+        "Graduated with an IB Diploma score of 40/45, including 7/7 in Higher Level Physics, 6/7 in Higher Level Mathematics, and 7/7 in Chinese. Wrote an A-grade Extended Essay, \"Measuring the Mass of Jupiter via Telescope,\" using telescopic observations of Jupiter's moons and Kepler's Third Law to calculate the planet's mass from collected orbital data — an early hands-on experience in turning raw measurements into quantitative results. Also served as Sports Prefect, leading the school's Terry Fox Run and annual sports awards.",
       skills: ["Physics HL", "Mathematics HL", "Chinese SL"],
     },
     {
@@ -101,18 +101,15 @@ export const siteConfig = {
       degree: "Bachelor of Engineering",
       dateRange: "2019-2020",
       description: 
-        "I was fortunate to be accepted into HKUST with an admissions scholarship. My time there was short, however, having left the school due to safety concerns during the 2019 protests. During this time, I was able to flourish "+
-        "in the academically-rigorous environment, developing my engineering fundamentals with Arduino robotics, intro programming (C++ and Java) and also mathematical foundations "+
-        "through courses like multivariable calculus, fluid mechanics and differential equations courses. Beyond schoolwork, I also gained experience in engineering development pipelines, "+
-        "leading a team in HKUST's TechVention competition to design a portable air purifier and placing 8th among 92 teams.",
-      skills: ["Multivariable Calculus","Computing with Java","Differential Equations","Electro-Robot Design"],
+        "Accepted into HKUST with an admissions scholarship. My time there was cut short after I left due to safety concerns during the 2019 protests, but I made the most of the rigorous academic environment — building strong quantitative and programming foundations through coursework in multivariable calculus, differential equations, and object-oriented programming in C++ and Java. Beyond the classroom, I led a team in HKUST's TechVention competition to design a portable air purifier, placing 8th out of 92 teams and gaining hands-on experience with end-to-end engineering development and cross-functional collaboration.",
+      skills: ["Multivariable Calculus","Differential Equations","Object-Oriented Programming"],
     },
     {
       school: "University College London",
       degree: "Bachelor of Science in Physics",
       dateRange: "2020-2023",
       description: 
-        "At UCL, I was able to further broaden my technical skillset with exposure to physics theory, rigorous mathematics and laboratory work through courses like Mathematical Methods I-III, Data Analysis & Statistics, Electromagnetic Theory and Quantum Mechanics. I was also able to thrive in numerous group settings, developing my teamwork skills with group projects on technical communication, Hall-effect testing of thin-film Bismuth, and statistical analysis of Time-Correlated Single Photon Counting. In each of these projects, I was fortunate to be awarded the highest peer-review grade. I mostly enjoyed the department's forward-looking approach. Among my favourite modules were the newly-introduced Practical Machine Learning for Physicists and Practical Physics and Computing courses, which allowed me to develop Python application and gain exposure to Keras & Tensorflow.",
+      "Built a strong quantitative foundation through coursework in Mathematical Methods I-III, Data Analysis & Statistics, Electromagnetic Theory, and Quantum Mechanics. Applied these methods in hands-on research projects including Hall-effect characterisation of thin-film Bismuth and statistical analysis of Time-Correlated Single Photon Counting data — receiving the highest peer-review grade in every group project. Specialised electives in Practical Machine Learning for Physicists and Practical Physics and Computing developed my Python proficiency and gave me production experience with Keras and TensorFlow for model development on experimental datasets.",
       skills: ["Practical Machine Learning for Physicists","Mathematical Methods I-III","Data Analysis & Statistics","Practical Physics and Computing"],
     },
     {
@@ -120,19 +117,19 @@ export const siteConfig = {
       degree: "Master of Science in Mechanical Engineering",
       dateRange: "2023 - 2025",
       description: 
-        "Continuing my studies at UCL, I was able to specialise my technical skillset in engineering disciplines, covering level 7 courses spanning robotics control, power transmissions, materials, and energy theory. I learned industry-standard engineering software including ANSYS Fluent and APDL for Finite Element Analysis and Computational Fluid Dynamics. I was also able to learn key professional skills in project management, as well as end-to-end engineering development through my thesis project. Overall, my time at UCL has provided me with a versatile skillset, and I feel confident in tackling any future technical challenges.",
+      "Extended my technical foundation into computational modelling and simulation at Level 7, working with large numerical datasets through ANSYS Fluent and APDL for CFD and Finite Element Analysis. Coursework spanned robotics control, power transmissions, materials science, and energy systems — each requiring data-driven analysis and algorithmic problem-solving. My thesis delivered an end-to-end engineering project from problem definition through implementation and validation, complemented by formal training in project management and technical delivery.",
       skills: ["Advanced Computation in Engineering","Control and Robotics","Project Management","New and Renewable Energy Systems"],    
     },
   ],
   service: 
-    "Across my University life, I've also held multiple service roles which provided valuable income while also contributing to my growth. These experiences have allowed me to develop professionally, by learning to effectively manage working responsibilities on top of academic and other commitments. Most importantly, I was able to enhance my interpersonal skills, improving my ability to coexist with others and work more effectively within any team.",
+    "Throughout university, I balanced academic work with part-time roles across retail, hospitality, and tutoring. Beyond providing income, these positions sharpened skills directly relevant to data work: operating under pressure, prioritising competing demands, communicating clearly with diverse audiences, and maintaining accuracy in fast-moving environments.",
   roles: [
     {
     company: "UNIQLO",
     position: "Sales Associate",
     dateRange: "2025-Present",
     logo: "/logos/UNIQLO_logo.svg",
-    description: "Delivered customer service and sales support at UNIQLO's Oxford Street store in central London.",
+    description: "Worked the shop floor and tills at the Oxford Street flagship, one of UNIQLO's busiest stores in Europe, serving several hundred customers per shift. Operated POS and stock systems accurately under sustained pressure, and learned to read demand patterns across the day to anticipate where staffing and stock attention were needed.",
     },
     {
       company: "The Coffee Tree",
@@ -140,7 +137,7 @@ export const siteConfig = {
       dateRange: "2024-2025",
       logo: "/logos/coffee_tree_logo.png",
       backgroundcolor: "bg-gray-800",
-      description: "Managed solo high-volume coffee service at a bustling café in London Old Street.",
+      description: "Ran solo service during peak hours at a high-volume Old Street café, handling order intake, drink preparation, and queue management simultaneously. ",
     },
     {
       company: "CoCo Ichibanya",
@@ -148,14 +145,14 @@ export const siteConfig = {
       dateRange: "2024-2025",
       logo: "/logos/coco_logo.png",
       backgroundcolor: "bg-gray-800",
-      description: "Maintaining hospitality and operations at a high-traffic restaurant in Leicester Square, London.",
+      description: "Managed floor operations at a high-traffic Leicester Square restaurant, coordinating between front-of-house, kitchen, and customers during peak service. ",
       },
       {
         company: "WeEnglish",
         position: "Maths & Physics Tutor",
         dateRange: "2022-2024",
         logo: "/logos/weenglish_logo.png",
-        description: "Offered personalised mathematics & physics tutoring to high-school students in both English and Chinese. ",
+        description: "Delivered one-to-one maths and physics tutoring to high-school students, bilingually in English and Mandarin. Tailored explanations of abstract quantitative concepts to each student's level, and strived to maintain visually simulating content.",
       },
   ]
 };
