@@ -141,7 +141,7 @@ export const siteConfig = {
     },
     {
       company: "CoCo Ichibanya",
-      position: "Floor Staff",
+      position: "Supervisor",
       dateRange: "2024-2025",
       logo: "/logos/coco_logo.png",
       backgroundcolor: "bg-gray-800",
