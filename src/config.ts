@@ -23,7 +23,7 @@ export const siteConfig = {
     {
       name: "Supernova Neutrino Event Analysis",
       description:
-      "Built an end-to-end ML pipeline in TensorFlow/Keras to detect, classify, and denoise simulated supernova neutrino events in 10,000+ Liquid Argon Time-Projection Chamber (LArTPC) detector images. Engineered physics-based noise simulation, a ResNet-18 classifier robust to heavy noise (98% accuracy), a U-Net denoising autoencoder, and a Bayesian-optimised regression model that cut energy-prediction error by 45% (to 8% MAE).",
+      "Built an end-to-end ML pipeline in TensorFlow/Keras to detect, classify, and denoise simulated supernova neutrino events in 10,000+ Liquid Argon Time-Projection Chamber (LArTPC) detector images. Engineered physics-based noise simulation, a ResNet-18 classifier robust to heavy noise (98% accuracy), a residual U-Net denoiser, and a Bayesian-optimised regression model that cut energy-prediction error by 45% (to 8% MAE).",
       link: "https://github.com/anpugeat/supernova-neutrino-classification",
       skills: ["Python", "Tensorflow / Keras", "Machine Learning (CNNs, ResNets, U-Nets)", "Image Classification & Denoising", "Regression"],
     },
