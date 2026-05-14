@@ -17,7 +17,7 @@ export const siteConfig = {
       name: "TFTExodia.com - Analytics Platform",
       description:
         "Built an end-to-end analytics platform that mines 200k+ high-elo Teamfight Tactics matches to surface meta team compositions via unsupervised ML, identifying 35+ distinct archetypes — including several untracked by sites like MetaTFT. Engineered a Python ingestion pipeline against the Riot Games API into a normalised PostgreSQL schema (Dockerised, psycopg2 ETL), with daily automated refreshes via launchd. Clustered compositions using MultiLabelBinarizer features, UMAP (Jaccard) for dimensionality reduction, and HDBSCAN. Frontend in TypeScript/Next.js with Tailwind, deployed on Vercel.",
-      link: "https://tftexodia.com",
+      link: "https://github.com/anpugeat/tft-exodia-showcase",
         skills: ["Python (psycopg2, pandas, scikit-learn)", "PostgreSQL", "Docker", "ETL Pipelines", "Unsupervised ML (UMAP, HDBSCAN)",  ],
     },
     {
