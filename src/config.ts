@@ -65,8 +65,8 @@ export const siteConfig = {
     },
     {
       company: "Warneken Consulting",
-      title: "Material Science Research Intern",
-      dateRange: "Jun 2023 - Aug 2023",
+      title: "Research Intern",
+      dateRange: "Jun 2022 - Aug 2022",
       description:
       "Built an end-to-end materials selection pipeline that combines engineering requirements analysis with a custom database and multi-criteria optimisation to recommend optimal materials for each component of a precision lathe.",
       bullets: [
