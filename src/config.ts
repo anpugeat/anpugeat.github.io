@@ -78,7 +78,7 @@ export const siteConfig = {
     {
       company: "Sinovision-Tech",
       title: "Test Engineering Intern",
-      dateRange: "Jun 2022 - Aug 2022",
+      dateRange: "Jun 2021 - Aug 2021",
       bullets: [
         "Developed diagnostic protocols for CT scanner circuitry using oscilloscopes, multimeters and signal analysers",
         "Conducted root cause analysis using schematics and signal tracing, achieving 95% accuracy on 200+ assemblies",
