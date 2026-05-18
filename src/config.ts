@@ -56,7 +56,6 @@ export const siteConfig = {
       dateRange: "Sep 2023 - Feb 2024",
       description:
       "A Python-based Discord bot that answers student coursework questions with citations grounded in their actual textbooks and research papers, built on a Retrieval-Augmented Generation (RAG) pipeline.\n\nRather than relying on a generic LLM that may hallucinate, Edue Bot retrieves relevant passages from a curated library of course materials and uses them as context for its responses — giving students answers they can trust and trace back to source.",
-      link: "https://github.com/anpugeat/RAG-discord-bot",
       bullets: [
         "Ingests heterogeneous educational documents (PDFs, DOCX) into a clean, searchable knowledge base",
         "Performs semantic search over embedded course content to surface the most relevant passages for any question",
