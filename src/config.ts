@@ -68,7 +68,7 @@ export const siteConfig = {
       title: "Research Intern",
       dateRange: "Jun 2022 - Aug 2022",
       description:
-      "Built an end-to-end materials selection pipeline that combines engineering requirements analysis with a custom database and multi-criteria optimisation to recommend optimal materials for each component of a precision lathe.",
+      "Built a materials selection pipeline that utilises multi-criteria optimisation to recommend optimal materials for each component of a precision lathe.",
       bullets: [
         "Modelled in Python the impact of 28 candidate materials on a re-engineered precision lathe prototype, considering effects on centre of gravity, harmonic frequencies, and drive-mechanism response to inform design trade-offs.",
         "Built a multi-criteria evaluation framework scoring materials against portability, safety, and efficiency, synthesising 26 peer-reviewed sources to rank candidates and shortlist 7 materials.",
