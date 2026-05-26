@@ -70,9 +70,9 @@ export const siteConfig = {
       description:
       "Built an end-to-end materials selection pipeline that combines engineering requirements analysis with a custom database and multi-criteria optimisation to recommend optimal materials for each component of a precision lathe.",
       bullets: [
-        "Designed a SQLite materials database (200+ candidates) with ingestion from the Materials Project API, MatWeb, and literature sources. Added schema validation, provenance tracking, and confidence flags to handle messy, heterogeneous inputs.",
-        "Encoded engineering requirements as a quantitative scoring framework — hard constraints plus weighted objectives across 10+ properties (stiffness, damping, thermal expansion, cost) using Ashby performance indices.",
-        "Python (pandas, NumPy, scikit-learn) implementing constraint filtering, normalised multi-criteria scoring, and Pareto-front extraction to produce ranked shortlists per component.",
+        "Modelled in Python the impact of 28 candidate materials on a re-engineered precision lathe prototype, considering effects on centre of gravity, harmonic frequencies, and drive-mechanism response to inform design trade-offs.",
+        "Built a multi-criteria evaluation framework scoring materials against portability, safety, and efficiency, synthesising 26 peer-reviewed sources to rank candidates and shortlist 7 materials.",
+        "Presented findings and recommendations to both technical and non-technical stakeholders for final design review.",
       ],
     },
     {
